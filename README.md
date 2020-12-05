@@ -1,12 +1,12 @@
 AWS Lambdaがコンテナイメージをサポートしたので、Detectron2 を使って画像認識(Object Detection)を行うAPI を作る
 
-Qiita の記事の、実装です。
-動作検証用なので、実際ご利用いただくには、コードを直接編集して頂く必要があります。
+Qiita の記事の実装です。
+動作検証用なので、実際にご利用いただくにはコードを直接編集して頂く必要があります。
 お手数おかけしますが、ご了承くださいませ。
 
 簡単に使い方をご紹介します。
 
-事前準備
+## 事前準備
 
 ```sh
 $ git clone git@github.com:gorogoroyasu/lambda-docker-detectron2.git
